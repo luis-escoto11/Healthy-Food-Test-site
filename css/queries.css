@@ -1,0 +1,27 @@
+@media (max-width: 960px) {
+    .uk-navbar-nav>li>a {font-size: 0.7em;}
+    
+    .header-container {
+        flex-direction: column-reverse !important;
+    }
+    
+    .flex-item h1 {font-size: 30px; margin-right: 15px;}
+
+    .bg-2 {min-height: 50vh;}
+    
+    .floating-container {
+        top: 0em;
+        float: unset !important;
+        width: 100% !important;
+    }
+    
+    svg {text-align: center; width: 18}
+    /* Menu */
+    .uk-flex {flex-direction: column;}
+    
+    .half-width {width: 100%;}
+    
+    .drinks-menu {flex-direction: column-reverse}
+    
+    .cities-container {margin-top: 0px !important;}
+}

@@ -1,0 +1,79 @@
+html,
+body {
+    font-family: 'Raleway', sans-serif !important;
+    background: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5 {color: #11998e;}
+
+p {line-height: 1.6 !important;}
+/* Navbar */
+a {cursor: pointer;}
+a:link, a:visited {color: white !important;}
+a:hover, a:active {color: white !important;}
+
+.uk-navbar-nav>li>a {color: white; }
+.uk-navbar-container:not(.uk-navbar-transparent) {background: linear-gradient(to right, #1a4245, #11978c);}
+
+/* Fold content */
+.header-container {display: flex;}
+
+.header-container button:hover {background: #11998e !important;}
+
+.flex-item:nth-child(1) {border-bottom: solid 1px #ccc;}
+
+.flex-item { flex: 1;}
+.flex-item h1 {margin-right: 25px;}
+
+.container-border {border: solid 1px #ccc;}
+.border-top {border-top: solid 1px #ccc}
+.border-right {border-right: solid 1px #ccc}
+.border-bottom {border-bottom: solid 1px #ccc}
+.border-left {border-left: solid 1px #ccc;}
+
+.bg-2 {
+    background: url(https://images.unsplash.com/photo-1543352634-a1c51d9f1fa7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat;
+    background-position: 45% center;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.floating-container {
+    position: relative;
+    top: 32em;
+}
+
+.box-shadow {box-shadow: 0 8px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)!important;}
+
+.uk-button-primary {
+    background: #11998e;
+    border: solid 1px #11998e;
+}
+
+/* MENU SECTION */
+
+.half-width {width: 50%;}
+
+/* FIND US SECTION */
+.find-us {
+    background: linear-gradient(to right, rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.find-us h2 {color: white;}
+
+.find-us uk-card {border-radius: .25rem !important;}
+
+/* ABOUT US SECTION */
+
+/* CONTACT  SECTION*/
+
+
+/*FOOTER */
+
+
+
+
